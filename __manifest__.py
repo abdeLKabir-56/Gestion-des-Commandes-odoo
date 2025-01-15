@@ -8,7 +8,7 @@
     'depends': ['base', 'sale'],  # Check dependencies
     'data': [
         'views/views.xml',
-         # Add security access rules if needed
+         'security/ir.model.access.csv'# Add security access rules if needed
     ],
     'installable': True,
     'application': True,
