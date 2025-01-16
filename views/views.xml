@@ -1,22 +1,22 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <odoo>
-	<!-- Records -->
-	<record id="part_model_action" model="ir.actions.act_window">
-		<field name="name">Part action</field>
-		<field name="res_model">part_model</field>
-		<field name="view_mode">list,form</field>
-		<field name="help" type="html">
-			<p class="o_view_nocontent_smiling_face">
-				Create Part
-			</p>
-			<p>
-				Manage your parts here
-			</p>
-		</field>
-	</record>
+    <!-- Action for Command Management -->
+    <record id="action_gestion_commandes" model="ir.actions.act_window">
+        <field name="name">Commandes</field>
+        <field name="res_model">gestion.commande</field>
+        <field name="view_mode">list,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create a new Commande
+            </p>
+            <p>
+                Manage your commandes efficiently here.
+            </p>
+        </field>
+    </record>
 
-	<!-- Menu items -->
-	<menuitem id="parts_menu" name="Parts" sequence="10"/>
-	<menuitem id="parts_menu_items" name="Items"
-		parent="parts_menu" action="part_model_action"/>
+    <!-- Menu Items -->
+    <menuitem id="gestion_commandes_menu" name="Gestion Commerciale" sequence="10"/>
+    <menuitem id="gestion_commandes_menu_items" name="Commandes" 
+        parent="gestion_commandes_menu" action="action_gestion_commandes"/>
 </odoo>
