@@ -5,10 +5,10 @@
     'category': 'Sales',
     'author': 'abdelkabir elhamoussi',
     'website': 'http://votresite.com',
-    'depends': ['base', 'sale'],  # Check dependencies
+    'depends': ['base', 'sale', 'stock'],  # Check dependencies
     'data': [
         'views/views.xml',
-         'security/ir.model.access.csv'# Add security access rules if needed
+         'security/ir.model.access.csv' # Add security access rules if needed
     ],
     'installable': True,
     'application': True,

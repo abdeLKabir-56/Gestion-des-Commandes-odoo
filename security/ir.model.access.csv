@@ -1,2 +1,3 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_gestion_commande,access_gestion_commande,model_gestion_commande,,1,1,1,1
+access_gestion_commande_ligne,access_gestion_commande_ligne,model_gestion_commande_ligne,,1,1,1,1
